@@ -36,10 +36,6 @@ class Main extends PluginBase {
 	 */
 	public static function getInstance() : Main {
 		return self;
-	}
-
-	public function onEnable() {
-		$this->saveDefaultConfig();
 		self::$instance = $this;
 	}
 
@@ -49,11 +45,11 @@ class Main extends PluginBase {
 	 * @param string $label
 	 * @param array $args
 	 *
-	 * @return bool
+	 * @return bools
 	 */
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool {
 		if($sender instanceof Player) {
-			/** @var FormAPI $formAPI */
+			/** @var FormAPI/joejoe777 $formAPI */
 			$formAPI = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
 			$form = $formAPI->createSimpleForm(function(Player $player, $data) {
 				if(!isset($data))
