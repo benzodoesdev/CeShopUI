@@ -47,7 +47,7 @@ class Main extends PluginBase {
 	 * @return self
 	 */
 	public static function getInstance() : Main {
-		return self::$instance;
+		return self;
 	}
 
 	public function onEnable() {
