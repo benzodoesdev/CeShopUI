@@ -5,7 +5,7 @@ main: SwiftTheDev\CEShop\Main
 version: 0.1.0
 api:
 - 3.0.0-ALPHA11
-description: A commissioned plugin for selling custom enchantments to weapons
+description: A FREE CESHOP PLUGIN
 author: SwiftTheDev
 depend:
 - PiggyCustomEnchants
@@ -24,18 +24,6 @@ permissions:
 - 0  # Enchantment Price
 declare(strict_types=1);
 namespace SwiftTheDev\CEShop;
-
-use jojoe77777\FormAPI\FormAPI;
-use onebone\economyapi\EconomyAPI;
-use PiggyCustomEnchants\CustomEnchants\CustomEnchants;
-use pocketmine\command\Command;
-use pocketmine\command\CommandSender;
-use pocketmine\item\enchantment\Enchantment;
-use pocketmine\item\enchantment\EnchantmentInstance;
-use pocketmine\Player;
-use pocketmine\plugin\PluginBase;
-use pocketmine\Server;
-use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase {
 	/** @var Enchantment[] $enchantments */
