@@ -1,0 +1,24 @@
+name: CeShopUI
+main: CeShopUI\Main
+version: 5.2
+api: [3.0.0-ALPHA9]
+author: SwiftTheDev
+description: Opens CeShopUI enchant Shop
+website: https://github.com/SwiftTheDev/CeShopUI
+commands:
+ ceshop:
+  description: ceshop
+  usage: "/ceshop"
+  aliases: [ceshop, ceshopui]
+  permission: ceshop.command
+ ceshopui:
+  descrpition: Opens CeShopUI enchant Shop
+  usage: "/ceshopui"
+  permission: ceshopui.admin
+permissions:
+ ceshopui.command:
+  description: "Allows the user to run /ceshopui command"
+  default: true
+ ceshopui.admin:
+  description: "Allows to manage admin features"
+  default: op
