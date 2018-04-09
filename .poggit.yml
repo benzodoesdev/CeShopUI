@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at
+--- # Poggit-CI Manifest. Open the CI at https://github.com/SwiftPgae340819/ceshopui
 branches:
 - master
 projects:
@@ -6,3 +6,6 @@ projects:
     path: ""
     icon: ""
 ...
+
+
+
