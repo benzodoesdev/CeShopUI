@@ -100,40 +100,6 @@ class Main extends PluginBase {
 			$form->setTitle(TextFormat::AQUA."CEShop");
 			$form->setContent("Choose an enchantment to add to your item");
 			$form->sendToPlayer($sender);
-		}
-		return true;
-	}
-
-	/**
-	 * @return Enchantment[]
-	 */
-	public static function getEnchantments() : array {
-		return static::$enchantments;
-	}
-
-	/**
-	 * @param int $integer
-	 *
-	 * @return string
-	 */
-	public static function getRomanNumber(int $integer) : string {
-		$characters = [
-			'M' => 1000,
-			'CM' => 900,
-			'D' => 500,
-			'CD' => 400,
-			'C' => 100,
-			'XC' => 90,
-			'L' => 50,
-			'XL' => 40,
-			'X' => 10,
-			'IX' => 9,
-			'V' => 5,
-			'IV' => 4,
-			'I' => 1
-		];
-		$romanString
-		while ($integer > 0) {
 				}
 			}
 		}
