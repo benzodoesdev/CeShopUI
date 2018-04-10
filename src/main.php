@@ -26,12 +26,6 @@ declare(strict_types=1);
 namespace SwiftTheDev\CEShop;
 
 class Main extends PluginBase {
-	/** @var Enchantment[] $enchantments */
-	private static $enchantments;
-	/** @var self $instance */
-	private static $instance;
-
-	/**
 	 * @return self
 	 */
 	public static function getInstance() : Main {
