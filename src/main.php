@@ -87,19 +87,4 @@ class Main extends PluginBase {
 			$this->getConfig()->reload();
 			/**
 			 * @var int[] $data
-			 */
-			foreach($this->getConfig()->getAll() as $enchantmentName => $data) {
-				$enchantment = CustomEnchants::getEnchantmentByName($enchantmentName) ?? Enchantment::getEnchantmentByName($enchantmentName);
-				if($enchantment !== null) {
-					self::$enchantments[] = $enchantment;
-					$form->addButton($enchantment->getName()." ".Main::getRomanNumber($data[0]));
-				}else{
-					$this->getLogger()->debug("Enchantment '$enchantmentName' is invalid!");
-				}
-			}
-			$form->setTitle(TextFormat::AQUA."CEShop");
-			$form->setContent("Choose an enchantment to add to your item");
-			$form->sendToPlayer($sender);
-				}
-			}
 		}
