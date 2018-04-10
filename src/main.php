@@ -20,23 +20,6 @@ permissions:
   CEShop.command:
     default: true
     description: "Allows access to the CEShop"unbreaking:  # Enchantment Name
-- 0  # Enchantment Level
-- 0  # Enchantment Price
-declare(strict_types=1);
-namespace SwiftTheDev\CEShop;
-
-class Main extends PluginBase {
-	 * @return self
-	 */
-	public static function getInstance() : Main {
-		return self;
-		self::$instance = $this;
-	}
-
-	/**
-	 * @param CommandSender $sender
-	 * @param Command $command
-	 * @param string $label
 	 * @param array $args
 	 *
 	 * @return bools
