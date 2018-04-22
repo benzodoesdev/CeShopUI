@@ -5,8 +5,3 @@ api: [3.0.0-ALPHA9]
 author: SwiftTheDev
 description: Opens CeShopUI enchant Shop
 website: https://github.com/SwiftTheDev/CeShopUI
-permissions:
-CEShop.command
-commmands:
- /ceshop
- "Alias-/ceshop-/ceshopui"
