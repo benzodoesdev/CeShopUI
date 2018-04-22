@@ -11,13 +11,14 @@ depend:
 - PiggyCustomEnchants
 - FormAPI
 - EconomyAPI
+- AllApiLoader
 commands:
   ceshop:
     usage: "/ceshop"
     description: "Opens the Custom Enchant UI"
     permission: CEshop.command
 permissions:
-  CEShop.command:
+  CEshop.command:
     default: true
     description: "Allows access to the CEShop"unbreaking:  # Enchantment Name
 - 2  # Enchantment Level
