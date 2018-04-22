@@ -1,7 +1,7 @@
 name: CeShopUI
 main: CeShopUI\Main
 version: 5.2
-api: [3.0.0-ALPHA9]
+api: [3.0.0-ALPHA12]
 author: SwiftTheDev
 description: Opens CeShopUI enchant Shop
 website: https://github.com/SwiftTheDev/CeShopUI
