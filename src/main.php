@@ -5,7 +5,7 @@ main: SwiftTheDev\CEShop\Main
 version: 0.1.0
 api:
 - 3.0.0-ALPHA12
-description: A PLUGIN
+description: A PocketMine-MP Public CeshopUI
 author: SwiftTheDev
 depend:
 - PiggyCustomEnchants
@@ -14,8 +14,8 @@ depend:
 commands:
   ceshop:
     usage: "/ceshop"
-    description: "Opens the CEShop UI"
-    permission: CEShop.command
+    description: "Opens the Custom Enchant UI"
+    permission: CEshop.command
 permissions:
   CEShop.command:
     default: true
