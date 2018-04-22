@@ -7,3 +7,6 @@ description: Opens CeShopUI enchant Shop
 website: https://github.com/SwiftTheDev/CeShopUI
 permissions:
 CEShop.command
+commmands:
+ /ceshop
+ "Alias-/ceshop-/ceshopui"
